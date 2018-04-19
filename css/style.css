@@ -1,4 +1,5 @@
-body, html {
+
+html, body {
 	font-family: 'Open Sans', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
@@ -95,9 +96,12 @@ hr {
 	color: rgba(255,255,255,0.7);
 	font-size: 12px;
 	letter-spacing: 1px;
+    background-color: #000;
+    padding: auto 20px;
 }
 #menu.navbar-default .navbar-nav > li > a:hover {
 	color: #54d0dd;
+    background-color: #424242;
 }
 .on {
 	background-color: #343b42 !important;
@@ -176,6 +180,20 @@ hr {
     background: url(../img/about.png) no-repeat;
     font-size: 0; 
 }
+    
+
+.sobre{
+	display: inline-block;
+    align-items: center;
+	margin: 50px;
+}
+.sobre a{
+	background: #414a52;
+	color: #54d0dd;
+	padding: 12px 24px;
+	text-transform: uppercase;
+}
+
 	/*color: rgba(255,255,255,0.9);
 	font-size: 64px;
 	font-weight: 600;
@@ -194,6 +212,7 @@ header .intro-text {
 }
 /* About Section */
 #about {
+    width: 100%;
 	padding: 120px 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#54d0dd+0,54d0dd+0,54d0dd+0,7fdce6+0,54d0dd+100 */
 	background: rgb(84,208,221); /* Old browsers */
@@ -212,6 +231,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', end
 	margin-bottom: 30px;
 	line-height: 21px;
 }
+
+
 /* Portfolio Section */
 #portfolio {
 	padding: 120px 0;
@@ -235,7 +256,7 @@ ul.cat li {
 ol.type li {
 	display: inline-block;
     align-items: center;
-	margin-left: 50px;
+	margin: 50px;
 }
 ol.type li a {
 	background: #414a52;
@@ -348,91 +369,35 @@ ol.type li a:hover {
 	padding: 5px;
 	color: #E87E04;
 }
-/* Contact Section */
-#contact {
-	padding: 120px 0 60px 0;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#54d0dd+0,54d0dd+0,54d0dd+0,7fdce6+0,54d0dd+100 */
-	background: rgb(84,208,221); /* Old browsers */
-	background: -moz-linear-gradient(top, rgba(84,208,221,1) 0%, rgba(84,208,221,1) 0%, rgba(84,208,221,1) 0%, rgba(127,220,230,1) 0%, rgba(84,208,221,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, rgba(84,208,221,1) 0%, rgba(84,208,221,1) 0%, rgba(84,208,221,1) 0%, rgba(127,220,230,1) 0%, rgba(84,208,221,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, rgba(84,208,221,1) 0%, rgba(84,208,221,1) 0%, rgba(84,208,221,1) 0%, rgba(127,220,230,1) 0%, rgba(84,208,221,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', endColorstr='#54d0dd', GradientType=0 ); /* IE6-9 */
+/* Contact Section*/
+
+#contato{
+text-align: center;
+    background-color: beige;
 }
-#contact form {
-	padding: 30px 0;
+
+#contato h2 {
+	color: #54d0dd;
 }
-#contact .text-danger {
-	color: #cc0033;
-	text-align: left;
+
+
+#contato p {
+    color: #000;
 }
-label {
-	font-size: 12px;
-	font-weight: 400;
-	font-family: 'Open Sans', sans-serif;
-	float: left;
+
+#contato a{
+display: inline-block;
+padding: 10px;
+    margin: 20px 60px;
+text-align: center;
 }
-#contact .form-control {
-	display: block;
-	width: 100%;
-	padding: 6px 12px;
-	font-size: 14px;
-	line-height: 1.42857143;
-	color: #222;
-	background-color: rgba(255,255,255,0.8);
-	background-image: none;
-	border: 1px solid transparent;
-	border-radius: 0;
-	-webkit-box-shadow: none;
-	box-shadow: none;
-	-webkit-transition: none;
-	-o-transition: none;
-	transition: none;
-}
-#contact .form-control:focus {
-	border-color: #4b8d98;
-	outline: 0;
-	-webkit-box-shadow: transparent;
-	box-shadow: transparent;
-}
-.form-control::-webkit-input-placeholder {
-color: #2c3e50;
-}
-.form-control:-moz-placeholder {
-color: #2c3e50;
-}
-.form-control::-moz-placeholder {
-color: #2c3e50;
-}
-.form-control:-ms-input-placeholder {
-color: #2c3e50;
-}
-#contact .social {
-	margin-top: 80px;
-}
-#contact .social ul li {
-	display: inline-block;
-	margin: 0 20px;
-}
-#contact .social i.fa {
-	font-size: 26px;
-	padding: 4px;
-	color: #343b42;
-	transition: all 0.3s;
-}
-#contact .social i.fa:hover {
-	color: #fff;
-}
-.btn:active, .btn.active {
-	background-image: none;
-	outline: 0;
-	-webkit-box-shadow: none;
-	box-shadow: none;
-}
-a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
-	outline: none;
-	outline-offset: none;
-}
+
+
+
+
+
 /* Footer Section*/
+    
 #footer {
 	background: #343b42;
 	color: rgba(255,255,255,0.4);
@@ -448,13 +413,54 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: #54d0dd;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1080px) {
+
 #about img {
-	float: left;
-	margin-bottom: 20px;
+    float: none;
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
 }
 ol.type li{
     display: block;
     margin-bottom: 40px;
     }
+    
+
+#header {
+max-height: 650px;
+}
+
+    .intro h1{
+     width: auto;
+    height: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(../img/about.png) no-repeat;
+    font-size: 0; 
+    }
+    
+    header .intro-text {
+	padding-top: 150px;
+	padding-bottom: 200px;
+}
+    
+#about .botao {
+    display: flex;
+}
+    
+#about .botao a {
+	padding: 12px 24px;
+    margin-left: auto;
+    margin-right: auto;
+
+    }    
+
+.portfolio-item .hover-bg {
+	height: auto;
+ display: block;
+}
+/* #menu{
+padding: 0 !important;
+}*/
 }
