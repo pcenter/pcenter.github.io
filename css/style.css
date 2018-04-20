@@ -373,11 +373,11 @@ ol.type li a:hover {
 
 #contato{
 text-align: center;
-    background-color: beige;
+    background-color: #54d0dd;
 }
 
 #contato h2 {
-	color: #54d0dd;
+	color: #000;
 }
 
 
@@ -443,6 +443,7 @@ max-height: 650px;
     header .intro-text {
 	padding-top: 150px;
 	padding-bottom: 200px;
+text-align: center;
 }
     
 #about .botao {
